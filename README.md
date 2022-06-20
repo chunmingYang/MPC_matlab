@@ -2,8 +2,9 @@
 MPC understanding:<br />
 the key point is to find an iteration equation x(i+1)/x(i) propagated by inputs/controls u(i), then optimize the object function J formated by (Xref-X)^2 quadrutic cost functions
 
-hyperparameter: ts --- steps time    --- smaller means more precise similar to reference<br />
-                T  --- time horizon  --- larger means more early to expect changeing
+hyperparameter: <br />
+ts --- steps time    --- smaller means more precise similar to reference<br />
+T  --- time horizon  --- larger means more early to expect changeing
 
 bicycle cant do side drift that is because of the non-holonomic constraint<br />
 
