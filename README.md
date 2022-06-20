@@ -1,6 +1,6 @@
 # MPC_matlab
 MPC understanding:<br />
-the key point is to find an iteration equation x(i+1)/x(i) propagated by inputs/controls u(i), then optimize the object function J formated by (Xref-X)^2 quadrutic cost functions
+the key point is to find an iteration equation x(i+1)/x(i) propagated by inputs/controls u(i), then optimize the object function J formated by (Xref-X)^2 quadrutic cost functions, then choose the first optimized u(1) value
 
 hyperparameter: <br />
 ts --- steps time    --- smaller means more precise similar to reference<br />
